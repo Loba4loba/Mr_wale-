@@ -95,7 +95,7 @@ const century22 = 2101
  }
   else {console.log("failed")}
 
-  let scores = 70 
+  let scores = 30 
   const passMark = 50
   if (scores >= passMark) {
    scores = 60 
@@ -111,5 +111,5 @@ const century22 = 2101
     else {console.log("grade : A")}
 }
  else if (scores < passMark) {
-   console.log("failed")
+   console.log("failed: F9")
  }
