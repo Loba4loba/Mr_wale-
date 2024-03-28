@@ -77,3 +77,39 @@ const century22 = 2101
      result = 3; 
      console.log("result=",3)
  }
+
+
+ let scored = 70
+ if (scored >= 50) {
+   console.log("student grade= E")
+    if (scored > 60) {
+      console.log("student grade = D")
+    } else if (scored > 70) {
+      console.log("student grade= C")
+    } else if (scored > 80) {
+      console.log("student grade= B")
+   } else if (scored > 90) {
+      console.log("student grade= A")
+   }else {console.log("student grade= EXELENT")
+   }
+ }
+  else {console.log("failed")}
+
+  let scores = 70 
+  const passMark = 50
+  if (scores >= passMark) {
+   scores = 60 
+       console.log("grade: D")
+    if (scores > 60) {
+   scores = 70 
+       console.log("grade: C") 
+    }
+    else if (scores > 70) {
+   scores = 80  
+       console.log("grade: B")
+    } 
+    else {console.log("grade : A")}
+}
+ else if (scores < passMark) {
+   console.log("failed")
+ }
