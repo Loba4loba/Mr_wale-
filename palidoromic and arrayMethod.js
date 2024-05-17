@@ -73,7 +73,47 @@ if (posInt > 0 ) {
 
 }
 
+let array1 =  [2,3,3,4,5,6,5]
+let arr = ["i","love","abu's","class",]
+
+const sortInDes = (arr) => {
+  if (arr[0] === String(arr[0])){
+     return arr.sort()
+    }
+    else { 
+      arr.sort((a,b)=>{
+        return b-a
+      })  
+      }
+      return arr
+  }
+  console.log(sortInDes(arr))
+
+
+//  const sortInDesc = (arr) => {
+//    arr.sort((a,b)=> {
+//      if(a > b) {
+//        return -1
+//      }
+//      else {
+//       return 1
+//      }
+//    })
+//   return arr
+//  }
+//   console.log(sortInDesc(arr))
+
+  
+
+  //  reduce
+  
+  // const product = array.reduce((acc,curr,currIndex,arr)=> acc * curr)
+  // console.log(product)
+
+  // let avarage = array.reduce((acc,curr,currIndex,arr)=> {
+  //  return acc + curr},0)
+  //   avarage /= array.length
+  //     console.log(avarage)
 
 
 
- 
